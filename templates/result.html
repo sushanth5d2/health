@@ -24,9 +24,11 @@
 		<div class="results">
 			{% if prediction==1 %}
 				<h1>Prediction: <span class='danger'>Oops! You have DIABETES.</span></h1>
+			        <h1>It's just a Prediction</h1>
 				<img class="gif" src="{{ url_for('static', filename='diabetes.webp') }}" alt="Diabetes Image">
 			{% elif prediction==0 %}
 				<h1>Prediction: <span class='safe'>Great! You DON'T have diabetes.</span></h1>
+			        <h1>It's just a Prediction</h1>
 				<img class="gif1" src="{{ url_for('static', filename='no-diabetes.webp') }}" alt="Not Diabetes Image">
 			{% endif %}
 		</div>
@@ -34,8 +36,8 @@
 		<!-- Footer -->
        <div class='footer'>
            <div class="contact">
-               <a target="_blank" href="https://github.com/im-rcr"><i class="fab fa-github fa-lg contact-icon"></i></a>
-               <a target="_blank" href="https://www.linkedin.com/in/rahul-chauhan-b54842154/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://github.com/sushanth5d2><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/sushanth-chithaluri-764099211/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
            </div>
            <p class='footer-description'>Project by sushanth</p>
        </div>
