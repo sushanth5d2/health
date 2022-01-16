@@ -17,7 +17,6 @@
             <h2 class='container-heading'><span class="heading_font">Diabetes Predictor</span></h2><br>
             <div class='description'>
     			<p>Healthcare for Diabetes</p><br>
-    			<p>It's Just a prediction 😊</p><br>
                         <p>Be safe , Stay Happy</p><br>
                         <p>Visit Again</p><br>
 		       
@@ -29,17 +28,17 @@
 			{% if prediction==1 %}
 				<h1>Prediction: <span class='danger'>Oops! You have DIABETES.</span></h1>
 			        <h1>It's just a Prediction</h1><br>
-			        <img src="blog_header1.jpg" style="width:100%">
+			       <!-- <img src="blog_header1.jpg" style="width:100%">-->
 			        <h1>Please Consult a Good Doctor..</h1><br>
 			        <h1>        Thank You 🙏    </h1><br>
-				<!--<img class="gif" src="{{ url_for('static', filename='diabetes.webp') }}" alt="Diabetes Image">-->
+				<img class="gif" src="{{ url_for('static', filename='blog_header1.jpg') }}" alt="Diabetes Image">
 			{% elif prediction==0 %}
 				<h1>Prediction: <span class='safe'>Great! You DON'T have diabetes.</span></h1>
 			        <h1>It's just a Prediction</h1><br>
-			        <img src="diabetes-awareness-month-1440x810.jpg" style="width:100%">
+			       <!-- <img src="diabetes-awareness-month-1440x810.jpg" style="width:100%">-->
 			        <h1>Please Consult a Good Doctor..</h1><br>
 			        <h1>        Thank You 🙏   </h1><br>
-				<!--<img class="gif1" src="{{ url_for('static', filename='no-diabetes.webp') }}" alt="Not Diabetes Image">-->
+				<img class="gif1" src="{{ url_for('static', filename='diabetes-awareness-month-1440x810.jpg') }}" alt="Not Diabetes Image">
 			{% endif %}
 		</div>
 
