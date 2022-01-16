@@ -20,7 +20,7 @@ body{
 	position: relative;
 	background: linear-gradient(45deg, #1a45a1, #14afb4, #11cc6f);
 	background-size: 500% 500%;
-	animation: change-gradient 10s ease-in-out infinite;
+	animation: change-gradient 30s ease-in-out infinite;
 }
 @keyframes change-gradient {
 	0%{
@@ -40,7 +40,7 @@ body{
 
 .heading_font{
     color: #ffffff;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Charm', cursive;
 	font-size: 35px;
 	font-weight: normal;
 }
