@@ -14,7 +14,7 @@
 
         <!-- Website Title -->
     	<div class="container">
-            <h2 class='container-heading'><span class="heading_font">Diabetes Predictor</span></h2>
+            <h2 class='container-heading'><span class="heading_font">Diabetes Predictor</span></h2><br>
             <div class='description'>
                 <p>Healthcare for Diabetes</p><br>
     			<p>It's just a prediction 😊</p><br>
@@ -24,16 +24,29 @@
     	</div>
 
         <!-- Text Area -->
+        <form>
+            <label for="fname"><b>First name:</b></label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname"><b>Last name:</b></label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="others" name="gender" value="Others">
+            <label for="others">Others</label>
+            
+       </form>
     	<div class="ml-container">
     		<form action="{{ url_for('predict') }}" method="POST">
-                <input class="form-input" type="text" name="age" placeholder="Age (years) eg. 34"><br>
-                <input class="form-input" type="text" name="pregnancies" placeholder="Number of Pregnancies eg. 0"><br>
-                <input class="form-input" type="text" name="glucose" placeholder="Glucose (mg/dL) eg. 80"><br>
-                <input class="form-input" type="text" name="bloodpressure" placeholder="Blood Pressure (mmHg) eg. 80"><br>
-                <input class="form-input" type="text" name="insulin" placeholder="Insulin Level (IU/mL) eg. 80"><br>
-                <input class="form-input" type="text" name="skinthickness" placeholder="Skin Thickness (mm) eg. 20"><br>
-                <input class="form-input" type="text" name="dpf" placeholder="Diabetes Pedigree Function eg. 0.52"><br>
-                <input class="form-input" type="text" name="bmi" placeholder="Body Mass Index (kg/m²) eg. 23.1"><br>
+                <input class="form-input" type="text" name="age" placeholder="Age (years)"><br>
+                <input class="form-input" type="text" name="pregnancies" placeholder="Number of Pregnancies"><br>
+                <input class="form-input" type="text" name="glucose" placeholder="Glucose (mg/dL)"><br>
+                <input class="form-input" type="text" name="bloodpressure" placeholder="Blood Pressure (mmHg)"><br>
+                <input class="form-input" type="text" name="insulin" placeholder="Insulin Level (IU/mL)"><br>
+                <input class="form-input" type="text" name="skinthickness" placeholder="Skin Thickness (mm)"><br>
+                <input class="form-input" type="text" name="dpf" placeholder="Diabetes Pedigree Function"><br>
+                <input class="form-input" type="text" name="bmi" placeholder="Body Mass Index (kg/m²)"><br>
                
                 
 
