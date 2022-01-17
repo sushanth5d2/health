@@ -1,5 +1,5 @@
 # health
-Healthcare for Diabetes 
+Healthcare for Diabetes Prediction
 
 It's just a prediction about diabetes we will fill some data about in the form and we submit that accourding to that measure of your data it will predict you are having a diabetes or not I have written a code in HTML and i used backend as python all the data that you given in HTML it will store in the backend i.e.Python it will evaluate all the details and the result will be return to the result.html so it will show our result. If we a diabetes it will show oops!! you have a diabetes with an image and some details along with that. IF we don't have a diabetes it wil shows you don't have a daibetes with an image and some details along with that.
 we already mentioned that it is just a prediction 
