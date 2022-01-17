@@ -7,7 +7,7 @@ we already mentioned that it is just a prediction
 github: www.github.com
 
 After the finishing of the code just we uploaded the files to the repository.
-In gitu=hub i add demo link it will show you how the prediction works.
+In github i added demo link it will show you how the prediction works.
 
 How the github code deployed as a website lets see the information given below.
 
